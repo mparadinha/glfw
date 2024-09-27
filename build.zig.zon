@@ -1,6 +1,7 @@
 .{
     .name = "glfw",
     .version = "0.0.0",
+    .minimum_zig_version = "0.13.0",
     .paths = .{
         "include/",
         "src/",
@@ -14,8 +15,8 @@
     },
     .dependencies = .{
         .xcode_frameworks = .{
-            .url = "https://github.com/mparadinha/xcode-frameworks/archive/refs/heads/0.12.0.tar.gz",
-            .hash = "1220952bf2759bf72187441dead4dfcebce9ff0d6e1cbb4a68355a11d1f7287e0683",
+            .url = "https://github.com/mparadinha/xcode-frameworks/archive/refs/heads/0.13.0.tar.gz",
+            .hash = "1220150e89b26b9636b0a51d70c294ae6b8945c9c4dca668bb120dcd00d044b5d0fb",
         },
         .vulkan_headers = .{
             .url = "https://github.com/mparadinha/vulkan-headers/archive/refs/heads/0.12.0.tar.gz",
